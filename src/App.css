@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+/*button {*/
+/*  width: 100px;*/
+/*  height: 22px;*/
+/*  color: white;*/
+/*  border-radius: 20px;*/
+/*  font-size: medium;*/
+/*  border: none;*/
+/*  background: rebeccapurple;*/
+/*  transition: 0.3s;*/
+/*}*/
+
+button:hover {
+  background: red;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  border-radius: 20px;
+  width: 220px;
+  height: 32px;
+  padding-left: 10px;
+}
+
+.todo_item {
+  border: 2px solid rebeccapurple;
+  width: 240px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: orange;
+}
